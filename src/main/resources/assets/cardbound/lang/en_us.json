@@ -1,5 +1,5 @@
 {
-  "itemGroup.examplemod": "Example Mod Tab",
+  "itemGroup.cardbound": "Cardbound",
   "block.examplemod.example_block": "Example Block",
   "item.examplemod.example_item": "Example Item",
 
@@ -10,4 +10,5 @@
   "examplemod.configuration.logDirtBlock": "Log Dirt Block",
   "examplemod.configuration.magicNumberIntroduction": "Magic Number Text",
   "examplemod.configuration.magicNumber": "Magic Number"
+
 }
