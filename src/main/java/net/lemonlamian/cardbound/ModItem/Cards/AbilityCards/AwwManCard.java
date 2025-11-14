@@ -8,10 +8,13 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 
+
 public class AwwManCard extends AbilityCardItem {
+    private static final String[] tooltipLineArray = {"tooltip.cardbound.aww_man_card.line1", "tooltip.cardbound.aww_man_card.line2", "tooltip.cardbound.aww_man_card.line3"};
     public AwwManCard(Item.Properties properties) {
-        super(properties.stacksTo(1), 100, CardCategory.ATTACK, CardRarity.RARE);
+        super(properties.stacksTo(1), 100, CardCategory.ATTACK, CardRarity.RARE, tooltipLineArray);
     }
+
 
     @Override
     protected boolean onActivate(Level level, LivingEntity user, ItemStack stack) {
@@ -22,4 +25,5 @@ public class AwwManCard extends AbilityCardItem {
 
         return true;
     }
+
 }

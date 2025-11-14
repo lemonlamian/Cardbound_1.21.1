@@ -7,8 +7,13 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 
 public class AbilityCardItem extends CardItem {
-    public AbilityCardItem(Properties properties, int cooldownTicks, CardCategory cardCategory, CardRarity cardRarity) {
-        super(properties, cooldownTicks, cardCategory, cardRarity);
+    public AbilityCardItem(Properties properties, int cooldownTicks, CardCategory cardCategory, CardRarity cardRarity, String[] tooltipLineArray) {
+        super(properties, cooldownTicks, cardCategory, cardRarity, tooltipLineArray);
+    }
+
+    @Override
+    public boolean activateExternally(Level level, LivingEntity entity, ItemStack stack) {
+        return onActivate(level, entity, stack);
     }
 
     @Override

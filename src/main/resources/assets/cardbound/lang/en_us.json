@@ -1,5 +1,4 @@
 {
-  "itemGroup.cardbound": "Cardbound",
   "block.examplemod.example_block": "Example Block",
   "item.examplemod.example_item": "Example Item",
 
@@ -9,6 +8,29 @@
   "examplemod.configuration.items": "Item List",
   "examplemod.configuration.logDirtBlock": "Log Dirt Block",
   "examplemod.configuration.magicNumberIntroduction": "Magic Number Text",
-  "examplemod.configuration.magicNumber": "Magic Number"
+  "examplemod.configuration.magicNumber": "Magic Number",
 
+
+  "itemGroup.cardbound": "Cardbound",
+
+
+  "item.cardbound.aww_man_card": "Aww Man ★★",
+  "tooltip.cardbound.aww_man_card.line1": "Rare | Attack",
+  "tooltip.cardbound.aww_man_card.line2": "Explode yourself when activated.",
+  "tooltip.cardbound.aww_man_card.line3": "*Mr. Boombastic*",
+
+  "item.cardbound.i_yearned_for_the_mines_card": "I Yearned For The Mines ★★★",
+  "tooltip.cardbound.i_yearned_for_the_mines_card.line1": "Epic | Passive",
+  "tooltip.cardbound.i_yearned_for_the_mines_card.line2": "If this card is in your inventory, it continuously grants Mining Speed.",
+  "tooltip.cardbound.i_yearned_for_the_mines_card.line3": "*I AM STEVE*",
+
+  "item.cardbound.enrage_card": "Enrage ★",
+  "tooltip.cardbound.enrage_card.line1": "Uncommon | Passive",
+  "tooltip.cardbound.enrage_card.line2": "If this card is in your inventory and you are attacked, it grants Damage Boost.",
+  "tooltip.cardbound.enrage_card.line3": "*Peak lil bro energy*",
+
+  "item.cardbound.yes_way_home_card": "Yes Way Home ★★",
+  "tooltip.cardbound.yes_way_home_card.line1": "Rare | Utility",
+  "tooltip.cardbound.yes_way_home_card.line2": "Teleport you to respawn point when activated.",
+  "tooltip.cardbound.yes_way_home_card.line3": "*IM BACK*"
 }

@@ -8,8 +8,8 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 
 public class PassiveCardItem extends CardItem{
-    public PassiveCardItem(Properties properties, int cooldownTicks, CardCategory cardCategory, CardRarity cardRarity) {
-        super(properties, cooldownTicks, cardCategory, cardRarity);
+    public PassiveCardItem(Properties properties, int cooldownTicks, CardCategory cardCategory, CardRarity cardRarity, String[] tooltipLineArray) {
+        super(properties, cooldownTicks, cardCategory, cardRarity, tooltipLineArray);
     }
 
 
