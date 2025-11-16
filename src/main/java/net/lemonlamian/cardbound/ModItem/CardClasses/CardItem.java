@@ -117,7 +117,7 @@ public abstract class CardItem extends Item {
     @Override
     public void inventoryTick(ItemStack stack, Level level, Entity entity, int slot, boolean selected) {
         if (!(entity instanceof Player player)) return;
-
+        if (stack.getItem() instanceof AbilityCardItem) return;
         if (player.getCooldowns().isOnCooldown(this)) return;
 
         this.onPassiveTick(level, player, stack, selected);

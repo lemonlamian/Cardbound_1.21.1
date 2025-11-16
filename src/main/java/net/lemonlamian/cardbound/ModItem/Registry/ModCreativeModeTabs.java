@@ -43,6 +43,7 @@ public class ModCreativeModeTabs {
                 // RARE
                 //  Attack
                 output.accept(ModItems.AWW_MAN_CARD.get());
+                output.accept(ModItems.CAPTAINS_FINISHER_CARD.get());
                 //  Defence
                 //  Utility
                 output.accept(ModItems.YES_WAY_HOME_CARD.get());

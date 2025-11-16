@@ -1,11 +1,10 @@
 package net.lemonlamian.cardbound.ModItem.Cards.AbilityCards;
 
 import net.lemonlamian.cardbound.ModItem.CardClasses.AbilityCardItem;
-import net.lemonlamian.cardbound.ModItem.CardClasses.CardProjectile;
+import net.lemonlamian.cardbound.ModItem.CardMiscClasses.CardProjectile;
 import net.lemonlamian.cardbound.ModItem.Enums.CardCategory;
 import net.lemonlamian.cardbound.ModItem.Enums.CardRarity;
 import net.lemonlamian.cardbound.ModItem.Registry.ModEntities;
-import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
@@ -19,7 +18,7 @@ import net.minecraft.world.phys.Vec3;
 public class PositionSwapCard extends AbilityCardItem {
     private static final String[] tooltipLineArray = {"tooltip.cardbound.position_swap_card.line1", "tooltip.cardbound.position_swap_card.line2", "tooltip.cardbound.position_swap_card.line3"};
     public PositionSwapCard(Item.Properties properties) {
-        super(properties, 200, CardCategory.UTILITY, CardRarity.UNCOMMON, tooltipLineArray);
+        super(properties.stacksTo(1), 200, CardCategory.UTILITY, CardRarity.UNCOMMON, tooltipLineArray);
     }
 
     @Override

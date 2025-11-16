@@ -1,5 +1,6 @@
-package net.lemonlamian.cardbound.ModItem.CardClasses;
+package net.lemonlamian.cardbound.ModItem.CardMiscClasses;
 
+import net.lemonlamian.cardbound.ModItem.CardClasses.AbilityCardItem;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.network.syncher.EntityDataSerializers;

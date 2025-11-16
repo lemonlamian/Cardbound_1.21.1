@@ -37,5 +37,10 @@
   "item.cardbound.position_swap_card": "Position Swap ★",
   "tooltip.cardbound.position_swap_card.line1": "Uncommon | Utility",
   "tooltip.cardbound.position_swap_card.line2": "Swap positions of you and mob when activated.",
-  "tooltip.cardbound.position_swap_card.line3": "*You're me and I'm you.*"
+  "tooltip.cardbound.position_swap_card.line3": "*You're me and I'm you.*",
+
+  "item.cardbound.captains_finisher_card": "Captain's Finisher ★★",
+  "tooltip.cardbound.captains_finisher_card.line1": "Rare | Attack",
+  "tooltip.cardbound.captains_finisher_card.line2": "Throws barrel bomb when activated.",
+  "tooltip.cardbound.captains_finisher_card.line3": "Aye aye, Captain!"
 }

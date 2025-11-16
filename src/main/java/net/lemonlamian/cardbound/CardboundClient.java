@@ -1,10 +1,9 @@
 package net.lemonlamian.cardbound;
 
-import net.lemonlamian.cardbound.ModItem.CardClasses.CardProjectileRenderer;
+import net.lemonlamian.cardbound.ModItem.CardMiscClasses.CardProjectileRenderer;
 import net.lemonlamian.cardbound.ModItem.Registry.ModEntities;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.entity.EntityRenderers;
-import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.ModContainer;

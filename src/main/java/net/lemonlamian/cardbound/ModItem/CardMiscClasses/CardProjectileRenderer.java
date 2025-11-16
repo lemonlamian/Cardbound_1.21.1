@@ -1,4 +1,4 @@
-package net.lemonlamian.cardbound.ModItem.CardClasses;
+package net.lemonlamian.cardbound.ModItem.CardMiscClasses;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.math.Axis;

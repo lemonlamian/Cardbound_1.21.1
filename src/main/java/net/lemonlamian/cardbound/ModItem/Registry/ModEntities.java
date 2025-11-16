@@ -1,7 +1,7 @@
 package net.lemonlamian.cardbound.ModItem.Registry;
 
 import net.lemonlamian.cardbound.Cardbound;
-import net.lemonlamian.cardbound.ModItem.CardClasses.CardProjectile;
+import net.lemonlamian.cardbound.ModItem.CardMiscClasses.CardProjectile;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;

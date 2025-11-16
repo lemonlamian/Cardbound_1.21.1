@@ -17,7 +17,7 @@ import net.minecraft.world.phys.Vec3;
 public class YesWayHomeCard extends AbilityCardItem {
     private static final String[] tooltipLineArray = {"tooltip.cardbound.yes_way_home_card.line1", "tooltip.cardbound.yes_way_home_card.line2", "tooltip.cardbound.yes_way_home_card.line3"};
     public YesWayHomeCard(Item.Properties properties) {
-        super(properties, 6000, CardCategory.UTILITY, CardRarity.RARE, tooltipLineArray);
+        super(properties.stacksTo(1), 6000, CardCategory.UTILITY, CardRarity.RARE, tooltipLineArray);
     }
 
     @Override

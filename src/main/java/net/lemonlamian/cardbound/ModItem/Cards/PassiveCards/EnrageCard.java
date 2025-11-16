@@ -14,7 +14,7 @@ import net.minecraft.world.level.Level;
 public class EnrageCard extends PassiveCardItem {
     private static final String[] tooltipLineArray = {"tooltip.cardbound.enrage_card.line1", "tooltip.cardbound.enrage_card.line2", "tooltip.cardbound.enrage_card.line3"};
     public EnrageCard(Item.Properties properties) {
-        super(properties, 60, CardCategory.PASSIVE, CardRarity.UNCOMMON, tooltipLineArray);
+        super(properties.stacksTo(1), 60, CardCategory.PASSIVE, CardRarity.UNCOMMON, tooltipLineArray);
     }
 
     @Override
