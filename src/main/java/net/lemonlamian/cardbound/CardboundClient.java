@@ -1,6 +1,10 @@
 package net.lemonlamian.cardbound;
 
+import net.lemonlamian.cardbound.ModItem.CardClasses.CardProjectileRenderer;
+import net.lemonlamian.cardbound.ModItem.Registry.ModEntities;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.entity.EntityRenderers;
+import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.ModContainer;
@@ -27,5 +31,7 @@ public class CardboundClient {
         // Some client setup code
         Cardbound.LOGGER.info("HELLO FROM CLIENT SETUP");
         Cardbound.LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
+
+        EntityRenderers.register(ModEntities.CARD_PROJECTILE.get(), CardProjectileRenderer::new);
     }
 }

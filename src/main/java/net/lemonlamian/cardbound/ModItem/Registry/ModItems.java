@@ -2,6 +2,7 @@ package net.lemonlamian.cardbound.ModItem.Registry;
 
 import net.lemonlamian.cardbound.Cardbound;
 import net.lemonlamian.cardbound.ModItem.Cards.AbilityCards.AwwManCard;
+import net.lemonlamian.cardbound.ModItem.Cards.AbilityCards.PositionSwapCard;
 import net.lemonlamian.cardbound.ModItem.Cards.AbilityCards.YesWayHomeCard;
 import net.lemonlamian.cardbound.ModItem.Cards.PassiveCards.EnrageCard;
 import net.lemonlamian.cardbound.ModItem.Cards.PassiveCards.IYearnedForTheMinesCard;
@@ -21,4 +22,5 @@ public class ModItems {
     public static final DeferredItem<Item> I_YEARNED_FOR_THE_MINES_CARD = ITEMS.registerItem("i_yearned_for_the_mines_card", IYearnedForTheMinesCard::new);
     public static final DeferredItem<Item> ENRAGE_CARD = ITEMS.registerItem("enrage_card", EnrageCard::new);
     public static final DeferredItem<Item> YES_WAY_HOME_CARD = ITEMS.registerItem("yes_way_home_card", YesWayHomeCard::new);
+    public static final DeferredItem<Item> POSITION_SWAP_CARD = ITEMS.registerItem("position_swap_card", PositionSwapCard::new);
 }

@@ -1,6 +1,7 @@
 package net.lemonlamian.cardbound;
 
 import net.lemonlamian.cardbound.ModItem.Registry.ModCreativeModeTabs;
+import net.lemonlamian.cardbound.ModItem.Registry.ModEntities;
 import net.lemonlamian.cardbound.ModItem.Registry.ModItems;
 import org.slf4j.Logger;
 
@@ -60,6 +61,8 @@ public class Cardbound {
         ModItems.ITEMS.register(modEventBus);
         // Register the Deferred Register to the mod event bus so tabs get registered
         ModCreativeModeTabs.CREATIVE_MODE_TABS.register(modEventBus);
+
+        ModEntities.ENTITY_TYPES.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.

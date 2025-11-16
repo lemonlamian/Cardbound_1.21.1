@@ -32,5 +32,10 @@
   "item.cardbound.yes_way_home_card": "Yes Way Home ★★",
   "tooltip.cardbound.yes_way_home_card.line1": "Rare | Utility",
   "tooltip.cardbound.yes_way_home_card.line2": "Teleport you to respawn point when activated.",
-  "tooltip.cardbound.yes_way_home_card.line3": "*IM BACK*"
+  "tooltip.cardbound.yes_way_home_card.line3": "*IM BACK*",
+
+  "item.cardbound.position_swap_card": "Position Swap ★",
+  "tooltip.cardbound.position_swap_card.line1": "Uncommon | Utility",
+  "tooltip.cardbound.position_swap_card.line2": "Swap positions of you and mob when activated.",
+  "tooltip.cardbound.position_swap_card.line3": "*You're me and I'm you.*"
 }

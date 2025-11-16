@@ -22,9 +22,7 @@ public class IYearnedForTheMinesCard extends PassiveCardItem {
     protected void onPassiveTick(Level level, Player player, ItemStack stack, boolean selected) {
         if (level.isClientSide()) return;
 
-        if (level.getGameTime() % 20 == 0) {
-            player.addEffect(new MobEffectInstance(MobEffects.DIG_SPEED, 40, 2));
-        }
+        player.addEffect(new MobEffectInstance(MobEffects.DIG_SPEED, 60, 2));
     }
 
 }

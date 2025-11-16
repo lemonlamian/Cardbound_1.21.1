@@ -33,6 +33,7 @@ public class ModCreativeModeTabs {
                 //  Attack
                 //  Defence
                 //  Utility
+                output.accept(ModItems.POSITION_SWAP_CARD.get());
                 //  Resource
                 //  World
                 //  Passive

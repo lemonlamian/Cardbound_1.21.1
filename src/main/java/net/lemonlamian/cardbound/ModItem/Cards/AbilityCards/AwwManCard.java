@@ -21,9 +21,10 @@ public class AwwManCard extends AbilityCardItem {
         if (!level.isClientSide()) {
             level.explode(user, user.getX(), user.getY(), user.getZ(), 3, Level.ExplosionInteraction.MOB);
 
+            return true;
         }
 
-        return true;
+        return false;
     }
 
 }

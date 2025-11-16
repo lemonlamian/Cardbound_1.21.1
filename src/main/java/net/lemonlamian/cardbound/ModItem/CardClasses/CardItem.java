@@ -3,6 +3,7 @@ package net.lemonlamian.cardbound.ModItem.CardClasses;
 import net.lemonlamian.cardbound.ModItem.Enums.CardCategory;
 import net.lemonlamian.cardbound.ModItem.Enums.CardRarity;
 import net.minecraft.ChatFormatting;
+import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResultHolder;
@@ -13,6 +14,8 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.level.block.Block;
+import net.neoforged.neoforge.common.util.FakePlayerFactory;
 
 import java.util.List;
 
@@ -87,6 +90,8 @@ public abstract class CardItem extends Item {
             player.getCooldowns().addCooldown(this, getCooldown());
         }
 
+
+
         return success ? InteractionResultHolder.success(stack) : InteractionResultHolder.fail(stack);
     }
 
@@ -99,6 +104,13 @@ public abstract class CardItem extends Item {
     // for ability cards
     protected abstract boolean onActivate(Level level, LivingEntity user, ItemStack stack);
 
+    public boolean onActivateOnEntityHit(Level level, LivingEntity shooter, Entity hitEntity, ItemStack stack) {
+        return false;
+    }
+
+    public boolean onActivateOnBlockHit(Level level, LivingEntity shooter, BlockPos hitBlockPos, ItemStack stack) {
+        return false;
+    }
 
 
     // for passive cards
@@ -106,7 +118,10 @@ public abstract class CardItem extends Item {
     public void inventoryTick(ItemStack stack, Level level, Entity entity, int slot, boolean selected) {
         if (!(entity instanceof Player player)) return;
 
+        if (player.getCooldowns().isOnCooldown(this)) return;
+
         this.onPassiveTick(level, player, stack, selected);
+        player.getCooldowns().addCooldown(this, getCooldown());
     }
 
     protected void onPassiveTick(Level level, Player player, ItemStack stack, boolean selected) {}
