@@ -46,7 +46,7 @@ public class ModCreativeModeTabs {
                 output.accept(ModItems.CAPTAINS_FINISHER_CARD.get());
                 //  Defence
                 //  Utility
-                output.accept(ModItems.YES_WAY_HOME_CARD.get());
+                output.accept(ModItems.RECALL_CARD.get());
                 //  Resource
                 //  World
                 //  Passive
@@ -64,9 +64,11 @@ public class ModCreativeModeTabs {
 
                 // LEGENDARY
                 //  Attack
+                output.accept(ModItems.WRATH_OF_ZEUS_CARD.get());
                 //  Defence
                 //  Utility
                 //  Resource
+                output.accept(ModItems.THE_PERFECT_PICKAXE_CARD.get());
                 //  World
                 //  Passive
 
@@ -77,6 +79,11 @@ public class ModCreativeModeTabs {
                 //  Resource
                 //  World
                 //  Passive
+
+
+                // OTHERS
+                // Tools & Weapons
+                output.accept(ModItems.THE_PERFECT_PICKAXE_ITEM.get());
 
             }).build());
 }

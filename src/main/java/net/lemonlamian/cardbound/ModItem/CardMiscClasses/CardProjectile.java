@@ -8,7 +8,6 @@ import net.minecraft.network.syncher.SynchedEntityData;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.projectile.ThrowableItemProjectile;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
@@ -57,7 +56,7 @@ public class CardProjectile extends ThrowableItemProjectile {
         if (this.level().isClientSide()) return;
 
         Entity hit = result.getEntity();
-        LivingEntity shooter = (getOwner() instanceof Player player) ? player : null;
+        LivingEntity shooter = (getOwner() instanceof LivingEntity livingShooter) ? livingShooter : null;
 
         if (shooter != null && this.cardStack != null && this.cardStack.getItem() instanceof AbilityCardItem cardItem) {
             cardItem.onActivateOnEntityHit(level(), shooter, hit, this.cardStack);
@@ -71,7 +70,7 @@ public class CardProjectile extends ThrowableItemProjectile {
         super.onHitBlock(result);
 
         if (!this.level().isClientSide()) {
-            LivingEntity shooter = (getOwner() instanceof Player player) ? player : null;
+            LivingEntity shooter = (getOwner() instanceof LivingEntity livingShooter) ? livingShooter : null;
             BlockPos hitBlockPos = result.getBlockPos();
 
             if (shooter != null && this.cardStack != null && this.cardStack.getItem() instanceof AbilityCardItem cardItem) {

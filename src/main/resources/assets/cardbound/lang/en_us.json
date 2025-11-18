@@ -14,33 +14,46 @@
   "itemGroup.cardbound": "Cardbound",
 
 
-  "item.cardbound.aww_man_card": "Aww Man ★★",
+  "item.cardbound.aww_man_card": "Aww Man ★★★",
   "tooltip.cardbound.aww_man_card.line1": "Rare | Attack",
   "tooltip.cardbound.aww_man_card.line2": "Explode yourself when activated.",
   "tooltip.cardbound.aww_man_card.line3": "*Mr. Boombastic*",
 
-  "item.cardbound.i_yearned_for_the_mines_card": "I Yearned For The Mines ★★★",
+  "item.cardbound.i_yearned_for_the_mines_card": "I Yearned For The Mines ★★★★",
   "tooltip.cardbound.i_yearned_for_the_mines_card.line1": "Epic | Passive",
   "tooltip.cardbound.i_yearned_for_the_mines_card.line2": "If this card is in your inventory, it continuously grants Mining Speed.",
   "tooltip.cardbound.i_yearned_for_the_mines_card.line3": "*I AM STEVE*",
 
-  "item.cardbound.enrage_card": "Enrage ★",
+  "item.cardbound.enrage_card": "Enrage ★★",
   "tooltip.cardbound.enrage_card.line1": "Uncommon | Passive",
   "tooltip.cardbound.enrage_card.line2": "If this card is in your inventory and you are attacked, it grants Damage Boost.",
   "tooltip.cardbound.enrage_card.line3": "*Peak lil bro energy*",
 
-  "item.cardbound.yes_way_home_card": "Yes Way Home ★★",
-  "tooltip.cardbound.yes_way_home_card.line1": "Rare | Utility",
-  "tooltip.cardbound.yes_way_home_card.line2": "Teleport you to respawn point when activated.",
-  "tooltip.cardbound.yes_way_home_card.line3": "*IM BACK*",
+  "item.cardbound.recall_card": "Recall ★★★",
+  "tooltip.cardbound.recall_card.line1": "Rare | Utility",
+  "tooltip.cardbound.recall_card.line2": "Teleport you to respawn point when activated.",
+  "tooltip.cardbound.recall_card.line3": "*IM BACK*",
 
-  "item.cardbound.position_swap_card": "Position Swap ★",
+  "item.cardbound.position_swap_card": "Position Swap ★★",
   "tooltip.cardbound.position_swap_card.line1": "Uncommon | Utility",
-  "tooltip.cardbound.position_swap_card.line2": "Swap positions of you and mob when activated.",
+  "tooltip.cardbound.position_swap_card.line2": "Swaps position of you and mob when activated.",
   "tooltip.cardbound.position_swap_card.line3": "*You're me and I'm you.*",
 
-  "item.cardbound.captains_finisher_card": "Captain's Finisher ★★",
+  "item.cardbound.captains_finisher_card": "Captain's Finisher ★★★",
   "tooltip.cardbound.captains_finisher_card.line1": "Rare | Attack",
   "tooltip.cardbound.captains_finisher_card.line2": "Throws barrel bomb when activated.",
-  "tooltip.cardbound.captains_finisher_card.line3": "Aye aye, Captain!"
+  "tooltip.cardbound.captains_finisher_card.line3": "Aye aye, Captain!",
+
+  "item.cardbound.wrath_of_zeus_card": "Wrath of Zeus ★★★★★",
+  "tooltip.cardbound.wrath_of_zeus_card.line1": "Legendary | Attack",
+  "tooltip.cardbound.wrath_of_zeus_card.line2": "When this card is activated and the thrown card hits something, it summons lightning.",
+  "tooltip.cardbound.wrath_of_zeus_card.line3": "Destroy my enemies and my life is yours!",
+
+  "item.cardbound.the_perfect_pickaxe_item": "The Perfect Pickaxe",
+  "item.cardbound.the_perfect_pickaxe_card": "The Perfect Pickaxe ★★★★★",
+  "tooltip.cardbound.the_perfect_pickaxe_card.line1": "Legendary | Resource",
+  "tooltip.cardbound.the_perfect_pickaxe_card.line2": "Summon The Perfect Pickaxe when activated.",
+  "tooltip.cardbound.the_perfect_pickaxe_card.line3": "That time I received the strongest pickaxe."
+
+
 }
