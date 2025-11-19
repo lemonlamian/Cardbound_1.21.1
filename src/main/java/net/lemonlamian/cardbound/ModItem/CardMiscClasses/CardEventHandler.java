@@ -1,7 +1,6 @@
-package net.lemonlamian.cardbound.ModItem;
+package net.lemonlamian.cardbound.ModItem.CardMiscClasses;
 
 import net.lemonlamian.cardbound.Cardbound;
-import net.lemonlamian.cardbound.ModItem.CardClasses.CardItem;
 import net.lemonlamian.cardbound.ModItem.CardClasses.PassiveCardItem;
 import net.lemonlamian.cardbound.ModItem.Cards.PassiveCards.EnrageCard;
 import net.minecraft.world.entity.player.Player;

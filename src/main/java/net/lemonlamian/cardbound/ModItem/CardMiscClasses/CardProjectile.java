@@ -2,6 +2,7 @@ package net.lemonlamian.cardbound.ModItem.CardMiscClasses;
 
 import net.lemonlamian.cardbound.ModItem.CardClasses.AbilityCardItem;
 import net.minecraft.core.BlockPos;
+import net.minecraft.core.Direction;
 import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.network.syncher.EntityDataSerializers;
 import net.minecraft.network.syncher.SynchedEntityData;
@@ -15,6 +16,7 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.EntityHitResult;
+import net.minecraft.world.phys.Vec3;
 
 public class CardProjectile extends ThrowableItemProjectile {
     private static final EntityDataAccessor<ItemStack> DATA_STACK = SynchedEntityData.defineId(CardProjectile.class, EntityDataSerializers.ITEM_STACK);
@@ -72,9 +74,11 @@ public class CardProjectile extends ThrowableItemProjectile {
         if (!this.level().isClientSide()) {
             LivingEntity shooter = (getOwner() instanceof LivingEntity livingShooter) ? livingShooter : null;
             BlockPos hitBlockPos = result.getBlockPos();
+            Vec3 hitPos = result.getLocation();
+            Vec3 dir = this.getDeltaMovement().normalize();
 
             if (shooter != null && this.cardStack != null && this.cardStack.getItem() instanceof AbilityCardItem cardItem) {
-                cardItem.onActivateOnBlockHit(level(), shooter, hitBlockPos, this.cardStack);
+                cardItem.onActivateOnBlockHit(level(), shooter, hitBlockPos, hitPos, dir, this.cardStack);
             }
 
             this.discard();

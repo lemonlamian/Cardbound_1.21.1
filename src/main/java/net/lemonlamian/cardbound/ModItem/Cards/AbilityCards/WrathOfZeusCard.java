@@ -17,6 +17,7 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.phys.Vec3;
 
 public class WrathOfZeusCard extends AbilityCardItem {
     private static final String[] tooltipLineArray = {"tooltip.cardbound.wrath_of_zeus_card.line1", "tooltip.cardbound.wrath_of_zeus_card.line2", "tooltip.cardbound.wrath_of_zeus_card.line3"};
@@ -63,7 +64,7 @@ public class WrathOfZeusCard extends AbilityCardItem {
     }
 
     @Override
-    public boolean onActivateOnBlockHit(Level level, LivingEntity shooter, BlockPos hitBlockPos, ItemStack stack) {
+    public boolean onActivateOnBlockHit(Level level, LivingEntity shooter, BlockPos hitBlockPos, Vec3 hitPos, Vec3 dir, ItemStack stack) {
 
         if (shooter != null && hitBlockPos != null && level instanceof ServerLevel serverLevel) {
             LightningBolt lightning = EntityType.LIGHTNING_BOLT.create(serverLevel);

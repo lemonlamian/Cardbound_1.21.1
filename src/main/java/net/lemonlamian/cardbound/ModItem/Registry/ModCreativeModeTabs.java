@@ -56,6 +56,7 @@ public class ModCreativeModeTabs {
                 //  Attack
                 //  Defence
                 //  Utility
+                output.accept(ModItems.TUNNEL_BORE_CARD.get());
                 //  Resource
                 //  World
                 //  Passive

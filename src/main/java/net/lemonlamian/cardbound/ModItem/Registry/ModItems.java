@@ -28,6 +28,7 @@ public class ModItems {
     public static final DeferredItem<Item> CAPTAINS_FINISHER_CARD = ITEMS.registerItem("captains_finisher_card", CaptainsFinisherCard::new);
     public static final DeferredItem<Item> WRATH_OF_ZEUS_CARD = ITEMS.registerItem("wrath_of_zeus_card", WrathOfZeusCard::new);
     public static final DeferredItem<Item> THE_PERFECT_PICKAXE_CARD = ITEMS.registerItem("the_perfect_pickaxe_card", ThePerfectPickaxeCard::new);
+    public static final DeferredItem<Item> TUNNEL_BORE_CARD = ITEMS.registerItem("tunnel_bore_card", TunnelBoreCard::new);
 
 
     // tools n weapons

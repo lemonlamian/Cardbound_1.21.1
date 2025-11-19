@@ -42,18 +42,21 @@
   "item.cardbound.captains_finisher_card": "Captain's Finisher ★★★",
   "tooltip.cardbound.captains_finisher_card.line1": "Rare | Attack",
   "tooltip.cardbound.captains_finisher_card.line2": "Throws barrel bomb when activated.",
-  "tooltip.cardbound.captains_finisher_card.line3": "Aye aye, Captain!",
+  "tooltip.cardbound.captains_finisher_card.line3": "*Aye aye, Captain!*",
 
   "item.cardbound.wrath_of_zeus_card": "Wrath of Zeus ★★★★★",
   "tooltip.cardbound.wrath_of_zeus_card.line1": "Legendary | Attack",
-  "tooltip.cardbound.wrath_of_zeus_card.line2": "When this card is activated and the thrown card hits something, it summons lightning.",
-  "tooltip.cardbound.wrath_of_zeus_card.line3": "Destroy my enemies and my life is yours!",
+  "tooltip.cardbound.wrath_of_zeus_card.line2": "When activated and the thrown card hits something, it summons lightning.",
+  "tooltip.cardbound.wrath_of_zeus_card.line3": "*Destroy my enemies and my life is yours!*",
 
   "item.cardbound.the_perfect_pickaxe_item": "The Perfect Pickaxe",
   "item.cardbound.the_perfect_pickaxe_card": "The Perfect Pickaxe ★★★★★",
   "tooltip.cardbound.the_perfect_pickaxe_card.line1": "Legendary | Resource",
   "tooltip.cardbound.the_perfect_pickaxe_card.line2": "Summon The Perfect Pickaxe when activated.",
-  "tooltip.cardbound.the_perfect_pickaxe_card.line3": "That time I received the strongest pickaxe."
+  "tooltip.cardbound.the_perfect_pickaxe_card.line3": "*That time I received the strongest pickaxe.*",
 
-
+  "item.cardbound.tunnel_bore_card": "Tunnel Bore ★★★★",
+  "tooltip.cardbound.tunnel_bore_card.line1": "Epic | Utility",
+  "tooltip.cardbound.tunnel_bore_card.line2": "When activated and the thrown card hits block, it makes tunnel.",
+  "tooltip.cardbound.tunnel_bore_card.line3": "*Machines? nah, CARDS*"
 }

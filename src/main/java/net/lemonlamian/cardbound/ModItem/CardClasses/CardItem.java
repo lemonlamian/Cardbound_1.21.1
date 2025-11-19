@@ -1,10 +1,12 @@
 package net.lemonlamian.cardbound.ModItem.CardClasses;
 
+import net.lemonlamian.cardbound.ModItem.CardMiscClasses.CooldownHelper;
 import net.lemonlamian.cardbound.ModItem.Enums.CardCategory;
 import net.lemonlamian.cardbound.ModItem.Enums.CardRarity;
 import net.minecraft.ChatFormatting;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
+import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.entity.Entity;
@@ -14,8 +16,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.level.block.Block;
-import net.neoforged.neoforge.common.util.FakePlayerFactory;
+import net.minecraft.world.phys.Vec3;
 
 import java.util.List;
 
@@ -87,7 +88,7 @@ public abstract class CardItem extends Item {
         boolean success = onActivate(level, player, stack);
 
         if (success) {
-            player.getCooldowns().addCooldown(this, getCooldown());
+            CooldownHelper.addCardCooldown(player, this, getCooldown());
         }
 
 
@@ -108,7 +109,7 @@ public abstract class CardItem extends Item {
         return false;
     }
 
-    public boolean onActivateOnBlockHit(Level level, LivingEntity shooter, BlockPos hitBlockPos, ItemStack stack) {
+    public boolean onActivateOnBlockHit(Level level, LivingEntity shooter, BlockPos hitBlockPos, Vec3 hitPos, Vec3 dir, ItemStack stack) {
         return false;
     }
 
