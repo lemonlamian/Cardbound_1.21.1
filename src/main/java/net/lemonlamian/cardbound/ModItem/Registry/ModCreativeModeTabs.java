@@ -44,6 +44,7 @@ public class ModCreativeModeTabs {
                 //  Attack
                 output.accept(ModItems.AWW_MAN_CARD.get());
                 output.accept(ModItems.CAPTAINS_FINISHER_CARD.get());
+                output.accept(ModItems.CARD_BARRAGE_CARD.get());
                 //  Defence
                 //  Utility
                 output.accept(ModItems.RECALL_CARD.get());

@@ -58,5 +58,10 @@
   "item.cardbound.tunnel_bore_card": "Tunnel Bore ★★★★",
   "tooltip.cardbound.tunnel_bore_card.line1": "Epic | Utility",
   "tooltip.cardbound.tunnel_bore_card.line2": "When activated and the thrown card hits block, it makes tunnel.",
-  "tooltip.cardbound.tunnel_bore_card.line3": "*Machines? nah, CARDS*"
+  "tooltip.cardbound.tunnel_bore_card.line3": "*Machines? nah, CARDS*",
+
+  "item.cardbound.card_barrage_card": "Card Barrage ★★★",
+  "tooltip.cardbound.card_barrage_card.line1": "Rare | Attack",
+  "tooltip.cardbound.card_barrage_card.line2": "Shoots multiple cards when activated.",
+  "tooltip.cardbound.card_barrage_card.line3": "*NOW THAT'S A LOT OF DAMAGE!*"
 }

@@ -6,7 +6,6 @@ import net.lemonlamian.cardbound.ModItem.Enums.CardRarity;
 import net.minecraft.ChatFormatting;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
-import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.entity.Entity;
@@ -122,7 +121,7 @@ public abstract class CardItem extends Item {
         if (player.getCooldowns().isOnCooldown(this)) return;
 
         this.onPassiveTick(level, player, stack, selected);
-        player.getCooldowns().addCooldown(this, getCooldown());
+        CooldownHelper.addCardCooldown(player, this, getCooldown());
     }
 
     protected void onPassiveTick(Level level, Player player, ItemStack stack, boolean selected) {}

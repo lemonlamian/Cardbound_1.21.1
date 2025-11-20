@@ -1,10 +1,9 @@
 package net.lemonlamian.cardbound.ModItem.Cards.AbilityCards;
 
 import net.lemonlamian.cardbound.ModItem.CardClasses.AbilityCardItem;
-import net.lemonlamian.cardbound.ModItem.CardMiscClasses.CardProjectile;
+import net.lemonlamian.cardbound.ModItem.CardMiscClasses.CardProjectileUtility;
 import net.lemonlamian.cardbound.ModItem.Enums.CardCategory;
 import net.lemonlamian.cardbound.ModItem.Enums.CardRarity;
-import net.lemonlamian.cardbound.ModItem.Registry.ModEntities;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.server.level.ServerLevel;
@@ -30,13 +29,7 @@ public class WrathOfZeusCard extends AbilityCardItem {
         if (level.isClientSide()) return true;
 
         if (user instanceof Player player && player instanceof ServerPlayer serverPlayer) {
-            EntityType<CardProjectile> type = ModEntities.CARD_PROJECTILE.get();
-            CardProjectile proj = new CardProjectile(type, player, level, stack);
-
-            proj.setPos(player.getX(), player.getEyeY() - 0.1, player.getZ());
-            proj.shootFromRotation(player, player.getXRot(), player.getYRot(), 0.0f, 1.6f, 0.0f);
-
-            level.addFreshEntity(proj);
+            CardProjectileUtility.shootCardProjectile(level, serverPlayer, stack, 0);
 
             return true;
         }

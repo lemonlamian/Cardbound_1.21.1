@@ -2,7 +2,6 @@ package net.lemonlamian.cardbound.ModItem.CardMiscClasses;
 
 import net.lemonlamian.cardbound.ModItem.CardClasses.AbilityCardItem;
 import net.minecraft.core.BlockPos;
-import net.minecraft.core.Direction;
 import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.network.syncher.EntityDataSerializers;
 import net.minecraft.network.syncher.SynchedEntityData;
@@ -18,8 +17,12 @@ import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.EntityHitResult;
 import net.minecraft.world.phys.Vec3;
 
+
 public class CardProjectile extends ThrowableItemProjectile {
     private static final EntityDataAccessor<ItemStack> DATA_STACK = SynchedEntityData.defineId(CardProjectile.class, EntityDataSerializers.ITEM_STACK);
+    private int startTick;
+    private int elapsedTick;
+    private int deletionTick = 200;
 
     private ItemStack cardStack = ItemStack.EMPTY;
 
@@ -83,6 +86,16 @@ public class CardProjectile extends ThrowableItemProjectile {
 
             this.discard();
         }
+    }
+
+    @Override
+    public void tick() {
+        super.tick();
+        if (startTick == 0) {startTick = this.tickCount;}
+
+        elapsedTick = this.tickCount - startTick;
+
+        if (elapsedTick == deletionTick) {this.discard();}
     }
 
 }
