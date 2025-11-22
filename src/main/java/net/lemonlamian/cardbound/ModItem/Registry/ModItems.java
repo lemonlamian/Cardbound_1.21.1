@@ -30,6 +30,8 @@ public class ModItems {
     public static final DeferredItem<Item> THE_PERFECT_PICKAXE_CARD = ITEMS.registerItem("the_perfect_pickaxe_card", ThePerfectPickaxeCard::new);
     public static final DeferredItem<Item> TUNNEL_BORE_CARD = ITEMS.registerItem("tunnel_bore_card", TunnelBoreCard::new);
     public static final DeferredItem<Item> CARD_BARRAGE_CARD = ITEMS.registerItem("card_barrage_card", CardBarrageCard::new);
+    public static final DeferredItem<Item> NETHER_LEGION_CARD = ITEMS.registerItem("nether_legion_card", NetherLegionCard::new);
+    public static final DeferredItem<Item> VESTIGE_OF_THE_GREATEST_KNIGHT = ITEMS.registerItem("vestige_of_the_greatest_knight_card", VestigeOfTheGreatestKnightCard::new);
 
 
     // tools n weapons

@@ -63,5 +63,15 @@
   "item.cardbound.card_barrage_card": "Card Barrage ★★★",
   "tooltip.cardbound.card_barrage_card.line1": "Rare | Attack",
   "tooltip.cardbound.card_barrage_card.line2": "Shoots multiple cards when activated.",
-  "tooltip.cardbound.card_barrage_card.line3": "*NOW THAT'S A LOT OF DAMAGE!*"
+  "tooltip.cardbound.card_barrage_card.line3": "*NOW THAT'S A LOT OF DAMAGE!*",
+
+  "item.cardbound.nether_legion_card": "Nether Legion ★★★",
+  "tooltip.cardbound.nether_legion_card.line1": "Rare | Attack",
+  "tooltip.cardbound.nether_legion_card.line2": "Summon group of geared wither skeletons when activated.",
+  "tooltip.cardbound.nether_legion_card.line3": "*RISE*",
+
+  "item.cardbound.vestige_of_the_greatest_knight_card": "Vestige of the Greatest Knight ★★★★",
+  "tooltip.cardbound.vestige_of_the_greatest_knight_card.line1": "Epic | Attack",
+  "tooltip.cardbound.vestige_of_the_greatest_knight_card.line2": "Summon The Greatest Knight when activated.",
+  "tooltip.cardbound.vestige_of_the_greatest_knight_card.line3": "*Even his vestige are this powerful.*"
 }

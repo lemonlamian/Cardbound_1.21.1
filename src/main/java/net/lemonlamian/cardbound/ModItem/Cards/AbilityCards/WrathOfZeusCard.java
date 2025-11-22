@@ -61,7 +61,7 @@ public class WrathOfZeusCard extends AbilityCardItem {
 
         if (shooter != null && hitBlockPos != null && level instanceof ServerLevel serverLevel) {
             LightningBolt lightning = EntityType.LIGHTNING_BOLT.create(serverLevel);
-            lightning.moveTo(hitBlockPos, 0.0f, 0.0f);
+            lightning.moveTo(hitPos, 0.0f, 0.0f);
             lightning.setDamage(40.0f);
             lightning.setVisualOnly(false);
             serverLevel.addFreshEntity(lightning);

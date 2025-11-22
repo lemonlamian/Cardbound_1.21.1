@@ -45,6 +45,7 @@ public class ModCreativeModeTabs {
                 output.accept(ModItems.AWW_MAN_CARD.get());
                 output.accept(ModItems.CAPTAINS_FINISHER_CARD.get());
                 output.accept(ModItems.CARD_BARRAGE_CARD.get());
+                output.accept(ModItems.NETHER_LEGION_CARD.get());
                 //  Defence
                 //  Utility
                 output.accept(ModItems.RECALL_CARD.get());
@@ -55,6 +56,7 @@ public class ModCreativeModeTabs {
 
                 // EPIC
                 //  Attack
+                output.accept(ModItems.VESTIGE_OF_THE_GREATEST_KNIGHT.get());
                 //  Defence
                 //  Utility
                 output.accept(ModItems.TUNNEL_BORE_CARD.get());
