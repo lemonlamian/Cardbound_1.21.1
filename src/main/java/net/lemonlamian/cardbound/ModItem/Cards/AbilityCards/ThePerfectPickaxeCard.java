@@ -18,7 +18,7 @@ import net.minecraft.world.level.Level;
 public class ThePerfectPickaxeCard extends AbilityCardItem {
     private static final String[] tooltipLineArray = {"tooltip.cardbound.the_perfect_pickaxe_card.line1", "tooltip.cardbound.the_perfect_pickaxe_card.line2", "tooltip.cardbound.the_perfect_pickaxe_card.line3"};
     public ThePerfectPickaxeCard(Item.Properties properties) {
-        super(properties, 18000, CardCategory.RESOURCE, CardRarity.LEGENDARY, tooltipLineArray);
+        super(properties.stacksTo(1), 18000, CardCategory.RESOURCE, CardRarity.LEGENDARY, tooltipLineArray);
     }
 
 

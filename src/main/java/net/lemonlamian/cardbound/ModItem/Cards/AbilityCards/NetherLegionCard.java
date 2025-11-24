@@ -16,7 +16,7 @@ import net.minecraft.world.level.Level;
 public class NetherLegionCard extends AbilityCardItem {
     private static final String[] tooltipLineArray = {"tooltip.cardbound.nether_legion_card.line1", "tooltip.cardbound.nether_legion_card.line2", "tooltip.cardbound.nether_legion_card.line3"};
     public NetherLegionCard(Item.Properties properties) {
-        super(properties, 1200, CardCategory.ATTACK, CardRarity.RARE, tooltipLineArray);
+        super(properties.stacksTo(1), 1200, CardCategory.ATTACK, CardRarity.RARE, tooltipLineArray);
     }
 
 

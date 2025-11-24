@@ -1,0 +1,62 @@
+{
+  "item.cardbound.aww_man_card": "Aww Man ★★★",
+  "tooltip.cardbound.aww_man_card.line1": "Rare | Attack",
+  "tooltip.cardbound.aww_man_card.line2": "カード発動時に自爆する。",
+  "tooltip.cardbound.aww_man_card.line3": "*どかーん*",
+
+  "item.cardbound.i_yearned_for_the_mines_card": "鉱山への憧れは止められねぇんだ ★★★★",
+  "tooltip.cardbound.i_yearned_for_the_mines_card.line1": "Epic | Passive",
+  "tooltip.cardbound.i_yearned_for_the_mines_card.line2": "このカードがインベントリ内にある間、採掘速度上昇を付与。",
+  "tooltip.cardbound.i_yearned_for_the_mines_card.line3": "*I AM STEVE*",
+
+  "item.cardbound.enrage_card": "ブチギレ ★★",
+  "tooltip.cardbound.enrage_card.line1": "Uncommon | Passive",
+  "tooltip.cardbound.enrage_card.line2": "このカードがインベントリ内にある間攻撃を受けると、攻撃力上昇を付与。",
+  "tooltip.cardbound.enrage_card.line3": "*そのための右手*",
+
+  "item.cardbound.recall_card": "帰還 ★★★",
+  "tooltip.cardbound.recall_card.line1": "Rare | Utility",
+  "tooltip.cardbound.recall_card.line2": "カード発動時にスポーン地点へとテレポートする。",
+  "tooltip.cardbound.recall_card.line3": "*おかえり*",
+
+  "item.cardbound.position_swap_card": "位置交換 ★★",
+  "tooltip.cardbound.position_swap_card.line1": "Uncommon | Utility",
+  "tooltip.cardbound.position_swap_card.line2": "投げたカードが当たった対象と位置を交換する。",
+  "tooltip.cardbound.position_swap_card.line3": "*114514*",
+
+  "item.cardbound.captains_finisher_card": "船長の必殺技 ★★★",
+  "tooltip.cardbound.captains_finisher_card.line1": "Rare | Attack",
+  "tooltip.cardbound.captains_finisher_card.line2": "カード発動時に樽爆弾を投げる。",
+  "tooltip.cardbound.captains_finisher_card.line3": "*海賊王に俺はならない*",
+
+  "item.cardbound.wrath_of_zeus_card": "ゼウスの怒り ★★★★★",
+  "tooltip.cardbound.wrath_of_zeus_card.line1": "Legendary | Attack",
+  "tooltip.cardbound.wrath_of_zeus_card.line2": "投げたカードが何かに当たった場合、そこに雷を落とす。",
+  "tooltip.cardbound.wrath_of_zeus_card.line3": "*やめてくれよ・・・(畏怖)*",
+
+  "item.cardbound.the_perfect_pickaxe_item": "最も完璧なピッケル",
+  "item.cardbound.the_perfect_pickaxe_card": "最も完璧なピッケル ★★★★★",
+  "tooltip.cardbound.the_perfect_pickaxe_card.line1": "Legendary | Resource",
+  "tooltip.cardbound.the_perfect_pickaxe_card.line2": "カード発動時、最も完璧なピッケルを召喚する。",
+  "tooltip.cardbound.the_perfect_pickaxe_card.line3": "*世界最強のピッケルを得た俺は自重せずにスローライフを送る*",
+
+  "item.cardbound.tunnel_bore_card": "トンネル掘削 ★★★★",
+  "tooltip.cardbound.tunnel_bore_card.line1": "Epic | Utility",
+  "tooltip.cardbound.tunnel_bore_card.line2": "投げたカードがブロックに当たった場合、その方向にトンネルを掘る。",
+  "tooltip.cardbound.tunnel_bore_card.line3": "*おっ開いてんじゃ～ん(開けたんだよなぁ)*",
+
+  "item.cardbound.card_barrage_card": "カード弾幕 ★★★",
+  "tooltip.cardbound.card_barrage_card.line1": "Rare | Attack",
+  "tooltip.cardbound.card_barrage_card.line2": "カード発動時、無敵時間を貫通する無数のカードを撃ちだす。",
+  "tooltip.cardbound.card_barrage_card.line3": "*少女祈祷中*",
+
+  "item.cardbound.nether_legion_card": "ネザー・レギオン ★★★",
+  "tooltip.cardbound.nether_legion_card.line1": "Rare | Attack",
+  "tooltip.cardbound.nether_legion_card.line2": "カード発動時、装備を着た複数体のウィザースケルトンを召喚する。",
+  "tooltip.cardbound.nether_legion_card.line3": "*RISE*",
+
+  "item.cardbound.vestige_of_the_greatest_knight_card": "偉大なる騎士の痕跡 ★★★★",
+  "tooltip.cardbound.vestige_of_the_greatest_knight_card.line1": "Epic | Attack",
+  "tooltip.cardbound.vestige_of_the_greatest_knight_card.line2": "カード発動時、偉大なる騎士のアンデッドを召喚する。",
+  "tooltip.cardbound.vestige_of_the_greatest_knight_card.line3": "*彼の残り物でさえこれほど強力なのだ。*"
+}

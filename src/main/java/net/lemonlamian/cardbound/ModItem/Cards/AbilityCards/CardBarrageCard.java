@@ -22,7 +22,7 @@ public class CardBarrageCard extends AbilityCardItem {
     private static final String[] tooltipLineArray = {"tooltip.cardbound.card_barrage_card.line1", "tooltip.cardbound.card_barrage_card.line2", "tooltip.cardbound.card_barrage_card.line3"};
     private int count = 15;
     public CardBarrageCard(Item.Properties properties) {
-        super(properties, 200, CardCategory.ATTACK, CardRarity.RARE, tooltipLineArray);
+        super(properties.stacksTo(1), 200, CardCategory.ATTACK, CardRarity.RARE, tooltipLineArray);
     }
 
 

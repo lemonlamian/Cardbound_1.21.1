@@ -47,7 +47,7 @@ public class TheGreatestKnight extends WitherSkeleton {
 
         elapsedTick = this.tickCount - startTick;
 
-        if (elapsedTick == deathTick) {this.discard();}
+        if (elapsedTick == deathTick) {this.kill();}
     }
 
     private void SetCustomEquipments(LivingEntity entity) {

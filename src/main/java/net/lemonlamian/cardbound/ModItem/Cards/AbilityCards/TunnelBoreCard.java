@@ -18,7 +18,7 @@ import net.minecraft.world.phys.Vec3;
 public class TunnelBoreCard extends AbilityCardItem {
     private static final String[] tooltipLineArray = {"tooltip.cardbound.tunnel_bore_card.line1", "tooltip.cardbound.tunnel_bore_card.line2", "tooltip.cardbound.tunnel_bore_card.line3"};
     public TunnelBoreCard(Item.Properties properties) {
-        super(properties, 600, CardCategory.UTILITY, CardRarity.EPIC, tooltipLineArray);
+        super(properties.stacksTo(1), 600, CardCategory.UTILITY, CardRarity.EPIC, tooltipLineArray);
     }
 
 

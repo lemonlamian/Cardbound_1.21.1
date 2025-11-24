@@ -78,6 +78,7 @@ public class ModCreativeModeTabs {
 
                 // FABLED
                 //  Attack
+                output.accept(ModItems.HEROBRINE_CARD.get());
                 //  Defence
                 //  Utility
                 //  Resource

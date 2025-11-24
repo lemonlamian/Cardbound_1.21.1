@@ -73,5 +73,10 @@
   "item.cardbound.vestige_of_the_greatest_knight_card": "Vestige of the Greatest Knight ★★★★",
   "tooltip.cardbound.vestige_of_the_greatest_knight_card.line1": "Epic | Attack",
   "tooltip.cardbound.vestige_of_the_greatest_knight_card.line2": "Summon The Greatest Knight when activated.",
-  "tooltip.cardbound.vestige_of_the_greatest_knight_card.line3": "*Even his vestige are this powerful.*"
+  "tooltip.cardbound.vestige_of_the_greatest_knight_card.line3": "*Even his vestige are this powerful.*",
+
+  "item.cardbound.herobrine_card": "Herobrine ★★★★★★",
+  "tooltip.cardbound.herobrine_card.line1": "Fabled | Attack | 1 time use",
+  "tooltip.cardbound.herobrine_card.line2": "Eliminate enemies around you when activated.",
+  "tooltip.cardbound.herobrine_card.line3": "*HE'S BACK*"
 }

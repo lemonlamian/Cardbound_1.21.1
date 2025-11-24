@@ -32,6 +32,7 @@ public class ModItems {
     public static final DeferredItem<Item> CARD_BARRAGE_CARD = ITEMS.registerItem("card_barrage_card", CardBarrageCard::new);
     public static final DeferredItem<Item> NETHER_LEGION_CARD = ITEMS.registerItem("nether_legion_card", NetherLegionCard::new);
     public static final DeferredItem<Item> VESTIGE_OF_THE_GREATEST_KNIGHT = ITEMS.registerItem("vestige_of_the_greatest_knight_card", VestigeOfTheGreatestKnightCard::new);
+    public static final DeferredItem<Item> HEROBRINE_CARD = ITEMS.registerItem("herobrine_card", HerobrineCard::new);
 
 
     // tools n weapons

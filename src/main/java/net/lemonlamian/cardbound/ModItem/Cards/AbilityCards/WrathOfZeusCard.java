@@ -21,7 +21,7 @@ import net.minecraft.world.phys.Vec3;
 public class WrathOfZeusCard extends AbilityCardItem {
     private static final String[] tooltipLineArray = {"tooltip.cardbound.wrath_of_zeus_card.line1", "tooltip.cardbound.wrath_of_zeus_card.line2", "tooltip.cardbound.wrath_of_zeus_card.line3"};
     public WrathOfZeusCard(Item.Properties properties) {
-        super(properties, 2000, CardCategory.ATTACK, CardRarity.LEGENDARY, tooltipLineArray);
+        super(properties.stacksTo(1), 2000, CardCategory.ATTACK, CardRarity.LEGENDARY, tooltipLineArray);
     }
 
     @Override
