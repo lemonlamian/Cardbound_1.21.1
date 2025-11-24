@@ -33,6 +33,7 @@ public class ModItems {
     public static final DeferredItem<Item> NETHER_LEGION_CARD = ITEMS.registerItem("nether_legion_card", NetherLegionCard::new);
     public static final DeferredItem<Item> VESTIGE_OF_THE_GREATEST_KNIGHT = ITEMS.registerItem("vestige_of_the_greatest_knight_card", VestigeOfTheGreatestKnightCard::new);
     public static final DeferredItem<Item> HEROBRINE_CARD = ITEMS.registerItem("herobrine_card", HerobrineCard::new);
+    public static final DeferredItem<Item> POINT_OF_NO_RETURN_CARD = ITEMS.registerItem("point_of_no_return_card", PointOfNoReturnCard::new);
 
 
     // tools n weapons

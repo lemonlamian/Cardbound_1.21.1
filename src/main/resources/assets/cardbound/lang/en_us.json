@@ -78,5 +78,10 @@
   "item.cardbound.herobrine_card": "Herobrine ★★★★★★",
   "tooltip.cardbound.herobrine_card.line1": "Fabled | Attack | 1 time use",
   "tooltip.cardbound.herobrine_card.line2": "Eliminate enemies around you when activated.",
-  "tooltip.cardbound.herobrine_card.line3": "*HE'S BACK*"
+  "tooltip.cardbound.herobrine_card.line3": "*HE'S BACK*",
+
+  "item.cardbound.point_of_no_return_card": "Point of No Return ★★★★",
+  "tooltip.cardbound.point_of_no_return_card.line1": "Epic | Passive",
+  "tooltip.cardbound.point_of_no_return_card.line2": "Gain various buffs when activated, but you will die 1 min later.",
+  "tooltip.cardbound.point_of_no_return_card.line3": "*Omw to smack yo ahh*"
 }

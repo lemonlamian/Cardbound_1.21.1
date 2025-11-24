@@ -63,6 +63,7 @@ public class ModCreativeModeTabs {
                 //  Resource
                 //  World
                 //  Passive
+                output.accept(ModItems.POINT_OF_NO_RETURN_CARD.get());
                 output.accept(ModItems.I_YEARNED_FOR_THE_MINES_CARD.get());
 
 
